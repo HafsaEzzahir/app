@@ -8,7 +8,7 @@
     $pw = empty($_POST['pw']) ? 'L0ck it up saf3'              : $_POST['pw'];
     $pt = empty($_POST['pt']) ? 'pssst ... đon’t tell anyøne!' : $_POST['pt'];
     $cipher = empty($_POST['cipher']) ? '' : $_POST['cipher'];
-    $plain  = empty($_POST['plain'])  ? '' : $_POST['plain'];
+   
 
     error_reporting(E_ALL ^ E_DEPRECATED);
     
